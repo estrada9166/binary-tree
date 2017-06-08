@@ -1,3 +1,11 @@
+// create a node (constructor function) with the left and right childs
+// check if the tree is empty and create a root in case of true
+//  compare the values with the root and define if it is less or greatest to put on the left or right
+//  use recursion to check if it is the last value on that side to push it
+// to search, compare the value with the label until they match
+// to delete, find the lowest value on that side of the nodes and replace with the value to delete, then delete the last value
+
+
 var tree;
 
 var Node = function(label) {
