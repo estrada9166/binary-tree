@@ -89,7 +89,7 @@ binaryTree(2);
 
 
 console.log(searchTheLowest());
-console.log(searchOnTree(1));
+console.log(searchOnTree(10));
 deleteOnTree(10);
 
-console.log(tree)
+console.log(tree.leftNode[0])
